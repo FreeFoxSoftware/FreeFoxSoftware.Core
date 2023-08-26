@@ -24,6 +24,11 @@
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
         <DocumentationFile>bin\Release\FreeFoxSoftware.Core.xml</DocumentationFile>
     </PropertyGroup>
+    <ItemGroup>
+        <None Include="../../Readme.md" Pack="true" PackagePath="/">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="System.Text.Json" Version="7.0.3" />
