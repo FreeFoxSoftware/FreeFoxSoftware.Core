@@ -4,8 +4,17 @@ on:
   push:
     branches: [ "main" ]
 
+
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: write
+  checks: write
+  issues: read
+  pull-requests: write
+  actions: write
+  
 jobs:
   build:
 
