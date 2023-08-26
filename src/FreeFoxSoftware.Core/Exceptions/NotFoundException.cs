@@ -1,4 +1,4 @@
-namespace ShipitSmarter.Core.Exceptions;
+namespace FreeFoxSoftware.Core.Exceptions;
 
 /// <summary>
 /// An exception that can be thrown whenever a resource is not found

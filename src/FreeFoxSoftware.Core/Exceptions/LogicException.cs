@@ -1,8 +1,7 @@
-namespace ShipitSmarter.Core.Exceptions
+namespace FreeFoxSoftware.Core.Exceptions
 {
     /// <summary>
     /// An exception that can be used when something doesn't make sense from a business perspective
-    /// E.G.  Cannot ship to address that does not exist
     /// </summary>
     public class LogicException : DomainException
     {
