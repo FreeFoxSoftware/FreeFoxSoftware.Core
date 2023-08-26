@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-
-namespace ShipitSmarter.Core.Exceptions;
+namespace FreeFoxSoftware.Core.Exceptions;
 
 /// <summary>
 /// Base exception class for any domain error.
